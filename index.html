@@ -1,0 +1,103 @@
+<!-- I Used Bootstrap RTl -->
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <title> الواجب الثالث - الصفحة الرئيسية</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vR3c8gJDtTZuFFJLa3nHcwHaHC%26pid%3DApi&f=1"
+                    alt="" width="30" height="24">
+                الواجب الثالث
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown bg-nav">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            المزيد
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./products.html">المنتجات</a></li>
+                            <li><a class="dropdown-item" href="#about-us">عنا</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="#contact-us">تواصل معنا</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="./products.html#cart"><i style="font-size: 30px;" class="bi bi-cart"></i></a>  
+            </div>
+        </div>
+
+    </nav>
+
+    <main class="d-flex justify-content-center align-items-center w-100 ">
+        <div class="text-center">
+            <h1>الصفحة الرئيسية</h1>
+        </div>
+    </main>
+    <div class="d-flex justify-content-center align-items-center w-100 " id="about-us">
+        <div class="text-center">
+            <h1>انا عبد العزيز طالب بكويت تبرمج😎</h1>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-center flex-column w-100 " id="contact-us">
+        <h1 class="text-center">تواصل معنا</h1>
+        <form class="w-50">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">الايميل :</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">لن نقوم بنشر ايميلك لاي احد.</div>
+            </div>
+            <div class="mb-3">
+                <label for="massege" class="form-label">الرسالة :</label>
+                <textarea class="form-control" id="massege"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">حفظ المعلومات للمرات القادمة.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+    </div>
+    <footer class="w-100 text-center">
+        <p>
+            <i class="bi bi-discord"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-google"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-telegram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-pinterest"></i>
+        </p>
+        <p>© 2022 LOLBRAID</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
